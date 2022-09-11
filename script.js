@@ -10,7 +10,7 @@ class Calculator {
     this.previousOperand = "";
     this.operation = undefined;
   }
-  // clear removes all values
+  // clear removes all inputs
   delete() {
     this.currentOperand = this.currentOperand.toString().slice(0, -1)
   }
