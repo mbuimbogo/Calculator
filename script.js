@@ -1,3 +1,29 @@
+class Calculator {
+    constructor(previosOperandTextElement, currentOperandTextElement){
+        this.previosOperandTextElement = previosOperandTextElement 
+        this.currentOperandTextElement = currentOperandTextElement
+    }
+    clear(){
+
+    }
+    delete(){
+
+    }
+    appendNumber(number){
+
+    }
+    chooseOperation(operation){
+
+    }
+    compute(){
+
+    }
+    updateDisplay(){
+        
+    }
+}
+
+
 const numberButtons = document.querySelectorAll('[data-number]')
 // selecting the data attribute use square brackets
 const operationButtons = document.querySelectorAll("[data-operation]")
