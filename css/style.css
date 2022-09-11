@@ -37,3 +37,29 @@ body{
     grid-column: span 2;
     /* spans 2 two columns */
 }
+
+.output {
+    grid-column: 1/ -1;
+    /* make content to span entire width go from column no.1 to -1(last column) */
+    background-color: rgba(0, 0, 0, 0.75);
+    display: flex;
+    align-items: flex-end;
+    /* to the right of the container */
+    justify-content: space-around;
+    /* space around elements */
+    flex-direction: column;
+    /* to line vertically instead of horizontally  */
+    padding: 10px;
+    word-wrap: break;
+    word-break: break-all;
+}
+
+.output .previous-operand {
+    color:rgba(255, 255, 255, .75);
+    font-size: 1.5rem;
+}
+
+.output .current-operand {
+    color:white;
+    font-size: 2.5rem;
+}
